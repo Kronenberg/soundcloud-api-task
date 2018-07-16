@@ -1,0 +1,32 @@
+.search-bar {
+    position: relative;
+    background-color: #282828;
+    padding: 32px 0;
+}
+
+.search-bar h4 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .015em;
+    font-weight: 400;
+    padding-left: 50px;
+    color: #fff;
+    text-transform: none;
+    margin-bottom: .5em;
+}
+
+.search-bar input {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -.005em;
+    padding-left: 50px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: none;
+    caret-color: #1db954;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

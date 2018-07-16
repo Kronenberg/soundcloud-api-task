@@ -1,0 +1,10 @@
+.track-list {
+    color: white;
+    width: 70%;
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+.track-list .info-message {
+    text-align: center;
+}

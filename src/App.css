@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+body {
+  background: rgb(3, 3, 3);
+  font-family: 'Roboto', sans-serif;
+}
+
+.content-loader {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+
+.tab-header {
+  color: white;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 1px solid #1db954;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  border-color: #1db954;
+  color:#1db954;
+  border-radius: 5px 5px 0 0;
+}
+
+.react-tabs__tab--disabled {
+  color: gray;
+  cursor: default;
+}
+
+.react-tabs__tab:focus {
+  box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);
+  outline: none;
+}
+
+.react-tabs__tab:focus:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.ps-container {
+  width: 40%;
+  height: 100px;
+  text-align: center;
+  border: 1px solid #1db954;
+  color: #1db954;
+  margin: 0 auto;
+}

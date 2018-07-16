@@ -1,0 +1,20 @@
+.bottom-bar {
+    height: 100px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.hide-bottom-bar {
+    display: none;
+}
+
+.bottom-bar button {
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    border: 1px solid #1db954;
+    border-radius: 4px;
+    background: black;
+    color: #1db954;
+    outline: none;
+}
